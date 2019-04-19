@@ -1,6 +1,6 @@
-var version         = 201903111700;         // Version == 최종수정일 시간 분
-var updateString    = "2019-03-11 Changelog"
-                    + "\n- Bug fixed (Amount of auto recovery)"
+var version         = 201904191000;         // Version == 최종수정일 시간 분
+var updateString    = "2019-04-19 Changelog"
+                    + "\n- Area & Time sorting by asc"
                     ;
 
 var selLang         = 'ko';   //기본 언어는 한국어
@@ -11,7 +11,10 @@ var objectList      = new Array();
 var selectedList    = new Array();
 var sync_calcList   = new Array();
 
-var sortToggle      = [0,0,0,0,0,0,0,0,0,0,0,0];            // 0:none 1:asc 2:desc //지역, 인탄식부, 합계, 시간, 계약서5종 = 12 ***** 190123 이후 일괄 desc로 폐기. ******
+// 190123 이후 일괄 desc로 폐기. ******
+var sortToggle      = [0,0,0,0,0,0,0,0,0,0,0,0];            // 0:none 1:asc 2:desc //지역, 인탄식부, 합계, 시간, 계약서5종 = 12
+//***********************************
+
 var areaToggle      = [1,1,1,1,1,1,1,1,1,1,1,1];            // [12] 0~11지역
 var wghtToggle      = [0,0,0,0];                            // 계약서 가중치 버튼 스위치
 var level           = [0,0.1,0.4,0.7];                      // 계약서 가중치 확률
@@ -115,7 +118,12 @@ function sortingTable(id){
         }
     }
 
-    sortTable(document.getElementById("area-list"), id, 0);
+    if((id == 6) || (id == 0)){ //지역 & 시간은 asc로 sorting
+        sortTable(document.getElementById("area-list"), id, 1);
+    }else{
+        sortTable(document.getElementById("area-list"), id, 0);
+    }
+
 
     /****** 190123 이후 일괄 desc로 폐기. ******
     if(sortToggle[id] <= 1){
