@@ -1083,6 +1083,10 @@ function calcStage(){
     }
 
     cptStr = langPack.HTML.TABLE.AREA + ': ' + sumT.slice(0,-2) + '　\n';
+
+
+    /* 클립보드 간략화
+    ****************
     cptStr += langPack.HTML.TABLE.TIME + ': ' + sumTime.slice(0,-2) + '　\n';
     cptStr += langPack.HTML.TABLE.RSRC + '(' + orTime + '): '
             + langPack.HTML.TABLE.HUMA + '[' + sumH.toFixed(0) + '] '
@@ -1095,6 +1099,8 @@ function calcStage(){
     if(val_sumItem.f){cptStr += langPack.HTML.TABLE.TICKET_FAST + '[' + (val_sumItem.f).toFixed(2) + '] ';}
     if(val_sumItem.r){cptStr += langPack.HTML.TABLE.TICKET_REPR + '[' + (val_sumItem.r).toFixed(2) + '] ';}
     if(val_sumItem.k){cptStr += langPack.HTML.TABLE.TICKET_TOKN + '[' + (val_sumItem.k).toFixed(2) + '] ';}
+    */
+
 
     //연속입력시 2초안에 입력시 갱신시점 1초뒤로 재갱신,
     if(sw_drawReserved) clearTimeout(drawTimer);

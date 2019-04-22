@@ -104,10 +104,22 @@
       <file leaf-file-name="GF.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/GF.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="120" column="55" selection-start-line="120" selection-start-column="55" selection-end-line="120" selection-end-column="55" />
+            <state relative-caret-position="254">
+              <caret line="803" column="93" selection-start-line="803" selection-start-column="87" selection-end-line="803" selection-end-column="93" />
               <folding>
-                <marker date="1555635224222" expanded="true" signature="51037:51048" ph="..." />
+                <element signature="e#1187#1216#0" expanded="true" />
+                <element signature="e#1714#1743#0" expanded="true" />
+                <element signature="e#1909#1938#0" expanded="true" />
+                <element signature="e#2043#2072#0" expanded="true" />
+                <element signature="e#5060#5089#0" expanded="true" />
+                <element signature="e#5752#5781#0" expanded="true" />
+                <element signature="e#5982#6011#0" expanded="true" />
+                <element signature="e#6143#6172#0" expanded="true" />
+                <element signature="e#9171#9200#0" expanded="true" />
+                <element signature="e#9679#9708#0" expanded="true" />
+                <element signature="e#9871#9900#0" expanded="true" />
+                <element signature="e#10004#10033#0" expanded="true" />
+                <marker date="1555639131333" expanded="true" signature="51084:51095" ph="..." />
               </folding>
             </state>
           </provider>
@@ -318,9 +330,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>val_sumrate.h</find>
-      <find>timetable</find>
-      <find>chart</find>
       <find>toggle</find>
       <find>1px</find>
       <find>interval</find>
@@ -342,12 +351,15 @@
       <find>str_inter</find>
       <find>82</find>
       <find>sumLevel</find>
-      <find />
+      <find>&gt; 600</find>
       <find>recove</find>
       <find>recover</find>
       <find>help</find>
       <find>guest</find>
       <find>sort</find>
+      <find>clipboard</find>
+      <find>copy</find>
+      <find>cptStr</find>
     </findStrings>
     <replaceStrings>
       <replace>table-sm</replace>
@@ -362,9 +374,9 @@
       <replace>&quot;100&quot;</replace>
       <replace>val_sumItem.d</replace>
       <replace>val_sumItem.k</replace>
-      <replace />
-      <replace />
-      <replace />
+      <replace>0,      0,</replace>
+      <replace>0,      0</replace>
+      <replace>,0,      0,</replace>
       <replace>,^t</replace>
     </replaceStrings>
   </component>
@@ -419,10 +431,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="714" />
-    <option name="y" value="101" />
-    <option name="width" value="1313" />
-    <option name="height" value="938" />
+    <option name="x" value="347" />
+    <option name="y" value="105" />
+    <option name="width" value="1504" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -656,18 +668,19 @@
       <workItem from="1552290658064" duration="4242000" />
       <workItem from="1552981216199" duration="674000" />
       <workItem from="1555402376012" duration="323000" />
-      <workItem from="1555634839372" duration="385000" />
+      <workItem from="1555634839372" duration="1331000" />
+      <workItem from="1555639013021" duration="753000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="780467000" />
+    <option name="totallyTimeSpent" value="782166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="101" width="1313" height="938" extended-state="0" />
+    <frame x="347" y="105" width="1504" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14880493" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1297043" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -687,23 +700,23 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295688" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0984375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="REST Client" order="11" weight="0.3315565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.5274841" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -1161,10 +1174,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/GF.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="120" column="55" selection-start-line="120" selection-start-column="55" selection-end-line="120" selection-end-column="55" />
+        <state relative-caret-position="254">
+          <caret line="803" column="93" selection-start-line="803" selection-start-column="87" selection-end-line="803" selection-end-column="93" />
           <folding>
-            <marker date="1555635224222" expanded="true" signature="51037:51048" ph="..." />
+            <element signature="e#1187#1216#0" expanded="true" />
+            <element signature="e#1714#1743#0" expanded="true" />
+            <element signature="e#1909#1938#0" expanded="true" />
+            <element signature="e#2043#2072#0" expanded="true" />
+            <element signature="e#5060#5089#0" expanded="true" />
+            <element signature="e#5752#5781#0" expanded="true" />
+            <element signature="e#5982#6011#0" expanded="true" />
+            <element signature="e#6143#6172#0" expanded="true" />
+            <element signature="e#9171#9200#0" expanded="true" />
+            <element signature="e#9679#9708#0" expanded="true" />
+            <element signature="e#9871#9900#0" expanded="true" />
+            <element signature="e#10004#10033#0" expanded="true" />
+            <marker date="1555639131333" expanded="true" signature="51084:51095" ph="..." />
           </folding>
         </state>
       </provider>
